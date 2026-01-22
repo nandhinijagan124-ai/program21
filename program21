@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int attendance[5] = {101, 102, 103, 104, 105};
+    int i;
+
+    printf("Attendance numbers of students:\n");
+
+    for (i = 0; i < 5; i++) {
+        printf("%d\n", attendance[i]);
+    }
+
+    return 0;
+}
